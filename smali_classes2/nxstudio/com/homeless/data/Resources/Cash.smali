@@ -2,6 +2,7 @@
 .super Ljava/lang/Object;
 .source "Cash.java"
 
+#FILO DI MERDA
 
 # static fields
 .field public static criminal_skills_burglar_thief_skills:I

@@ -74,7 +74,7 @@
 
     sget v4, Lnxstudio/com/homeless/data/Resources/Awesomeness;->one:I
 
-    const/16 v5, 0x1f4
+    const/16 v5, 0x0
 
     const v6, 0x7f030018
 
@@ -91,7 +91,7 @@
 
     sget v7, Lnxstudio/com/homeless/data/Resources/Awesomeness;->two:I
 
-    const/16 v8, 0x7d0
+    const/16 v8, 0x0
 
     const v9, 0x7f03001c
 
@@ -110,7 +110,7 @@
 
     sget v7, Lnxstudio/com/homeless/data/Resources/Awesomeness;->three:I
 
-    const/16 v8, 0x1388
+    const/16 v8, 0x0
 
     const v9, 0x7f03001e
 
@@ -129,7 +129,7 @@
 
     sget v7, Lnxstudio/com/homeless/data/Resources/Awesomeness;->four:I
 
-    const/16 v8, 0x2710
+    const/16 v8, 0x0
 
     const v9, 0x7f03001f
 
@@ -148,7 +148,7 @@
 
     sget v7, Lnxstudio/com/homeless/data/Resources/Awesomeness;->five:I
 
-    const/16 v8, 0x4e20
+    const/16 v8, 0x0
 
     const v9, 0x7f030028
 
@@ -169,7 +169,7 @@
 
     sget v7, Lnxstudio/com/homeless/data/Resources/Awesomeness;->six:I
 
-    const v8, 0xc350
+    const v8, 0x0
 
     const v9, 0x7f030029
 
@@ -188,7 +188,7 @@
 
     sget v7, Lnxstudio/com/homeless/data/Resources/Awesomeness;->seven:I
 
-    const v8, 0x186a0
+    const v8, 0x0
 
     const v9, 0x7f03002a
 
@@ -207,7 +207,7 @@
 
     sget v7, Lnxstudio/com/homeless/data/Resources/Awesomeness;->eight:I
 
-    const v8, 0xf4240
+    const v8, 0x0
 
     const v9, 0x7f03002c
 
@@ -226,7 +226,7 @@
 
     sget v7, Lnxstudio/com/homeless/data/Resources/Awesomeness;->nine:I
 
-    const v8, 0x4c4b40
+    const v8, 0x0
 
     const v9, 0x7f03002d
 
@@ -245,7 +245,7 @@
 
     sget v7, Lnxstudio/com/homeless/data/Resources/Awesomeness;->ten:I
 
-    const v8, 0x989680
+    const v8, 0x0
 
     const v9, 0x7f030019
 
@@ -264,7 +264,7 @@
 
     sget v7, Lnxstudio/com/homeless/data/Resources/Awesomeness;->one:I
 
-    const v8, 0x5f5e100
+    const v8, 0x0
 
     const v9, 0x7f03001a
 

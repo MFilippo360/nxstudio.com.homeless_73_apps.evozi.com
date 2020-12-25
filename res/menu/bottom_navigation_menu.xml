@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@mipmap/ic_person_white_24dp" android:enabled="true" android:id="@id/action_profile" android:title="@string/profile" app:showAsAction="ifRoom" />
+    <item android:icon="@mipmap/ic_work_white_24dp" android:enabled="true" android:id="@id/action_work" android:title="@string/work" app:showAsAction="ifRoom" />
+    <item android:icon="@mipmap/ic_shop_white_24dp" android:enabled="true" android:id="@id/action_buy" android:title="@string/buy" app:showAsAction="ifRoom" />
+    <item android:icon="@mipmap/ic_school_white_24dp" android:enabled="true" android:id="@id/action_education" android:title="@string/education3" app:showAsAction="ifRoom" />
+    <item android:icon="@mipmap/ic_settings_white_24dp" android:enabled="true" android:id="@id/action_setter" android:title="@string/extras" app:showAsAction="ifRoom" />
+</menu>

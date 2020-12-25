@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/bossbackbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/back2" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="backer" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" style="@style/Widget.AppCompat.Button.Colored" />
+    <ListView android:id="@id/$lvbosses" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/bossbackbtn" android:layout_below="@id/bossinfo" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_navigation">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView android:id="@id/business_empire" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:onClick="getBusinessEmpire" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:cardBackgroundColor="#ff12465b">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/imageView15" android:layout_width="47.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0" app:srcCompat="@mipmap/building" />
+                    <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/business_empire_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Play the next series" android:layout_weight="1.0" android:layout_toRightOf="@id/imageView15" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:id="@id/main_panel" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <ImageView android:id="@id/$profile" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="10.0dip" android:onClick="goto_bosses" app:srcCompat="@mipmap/g1" />
+                        <LinearLayout android:orientation="vertical" android:background="#ff607d8b" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <TextView android:textStyle="bold" android:id="@id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Mr. Dave" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:background="#ff607d8b" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_weight="1.0">
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/imageView10" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" app:srcCompat="@mipmap/clock" />
+                            <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/tv_age" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="18 Yrs 67 Days" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                            <ImageView android:id="@id/imageView11" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_weight="0.0" app:srcCompat="@mipmap/coiner" />
+                            <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/tv_cash_in_hand" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="$ 18000" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/imageView12" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="0.0" app:srcCompat="@mipmap/victorian_house" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/tv_lodging" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="TextView" android:layout_weight="0.04" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/imageView12" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="0.0" app:srcCompat="@mipmap/cab" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/tv_transport" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="TextView" android:layout_weight="0.04" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:id="@id/imageView12" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="0.0" app:srcCompat="@mipmap/curriculum" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/tv_education" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="TextView" android:layout_weight="0.04" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="goto_hunger">
+                        <ImageView android:id="@id/imageView13" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="8.0dip" app:srcCompat="@mipmap/hunger" />
+                        <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/tv_hunger" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="300/300" />
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar android:gravity="center_vertical" android:id="@id/hunger" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/tv_hunger" android:layout_centerVertical="true" app:rcProgress="40.0" app:rcMax="300.0" app:rcSecondaryProgress="300.0" app:rcBackgroundPadding="3.0dip" app:rcRadius="5.0dip" app:rcProgressColor="#ff91c653" app:rcSecondaryProgressColor="#ffffffff" app:rcBackgroundColor="#ff91c653" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:onClick="goto_health">
+                        <ImageView android:id="@id/imageView14" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="8.0dip" app:srcCompat="@mipmap/heart" />
+                        <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/tv_health" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="250/300" />
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar android:id="@id/health" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" app:rcProgress="40.0" app:rcMax="300.0" app:rcSecondaryProgress="300.0" app:rcBackgroundPadding="3.0dip" app:rcRadius="5.0dip" app:rcProgressColor="#ff1963ce" app:rcSecondaryProgressColor="#ffffffff" app:rcBackgroundColor="#ff1963ce" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:id="@id/beat_the_boss_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/cardView4" app:cardBackgroundColor="#ff607d8b">
+                <RelativeLayout android:id="@id/relativeLayout3" android:layout_width="368.0dip" android:layout_height="wrap_content" android:onClick="goto_bosses" app:layout_constraintTop_toBottomOf="@id/relativeLayout2">
+                    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/texter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/bosses_to_beat" android:layout_toRightOf="@id/imageView8" android:layout_alignTop="@id/imageView8" android:layout_alignBottom="@id/imageView8" android:layout_alignParentRight="true" />
+                    <ImageView android:id="@id/imageView8" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="10.0dip" app:srcCompat="@mipmap/g29817" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <LinearLayout android:orientation="vertical" android:id="@id/fb_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.BottomNavigationView android:id="@id/bottom_navigation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:menu="@menu/bottom_navigation_menu" app:itemIconTint="#ffffffff" app:itemTextColor="#ffffffff" app:itemBackground="@color/colorPrimary" />
+</RelativeLayout>

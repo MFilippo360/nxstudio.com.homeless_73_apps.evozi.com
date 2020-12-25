@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/fb_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_navigation" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_navigation" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/row1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_below="@id/cardView1" android:layout_alignParentLeft="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <android.support.v7.widget.CardView android:id="@id/Jobs" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" android:onClick="goto_lodging" app:cardBackgroundColor="#ff74c239">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:onClick="goto_lodging">
+                            <ImageView android:id="@id/$icon" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_margin="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:srcCompat="@mipmap/victorian_house" />
+                            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/$name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Lodging" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/CriminalJobs" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:onClick="goto_transport" app:cardBackgroundColor="#ff558ad8">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:onClick="goto_transport">
+                            <ImageView android:id="@id/$icon" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_margin="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:srcCompat="@mipmap/cab" />
+                            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/$name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Transport" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/row2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_below="@id/row1" android:layout_alignParentLeft="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/Bank" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:onClick="goto_weapon" app:cardBackgroundColor="#fff79d2d">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:onClick="goto_weapon">
+                            <ImageView android:id="@id/$icon" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_margin="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:srcCompat="@mipmap/bulletproof_vest" />
+                            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/$name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Weapons" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <android.support.v7.widget.CardView android:id="@id/WatchTV" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" android:onClick="goto_chat_room" app:cardBackgroundColor="#ffd14430">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:onClick="goto_chat_room">
+                            <ImageView android:id="@id/$icon" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_margin="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:srcCompat="@mipmap/conversation" />
+                            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/$name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Friends" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/casino_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_below="@id/row2" android:layout_alignParentLeft="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/Bank" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:onClick="goto_casino" app:cardBackgroundColor="#ff607d8b">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:onClick="goto_casino">
+                            <ImageView android:id="@id/$icon" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_margin="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:srcCompat="@mipmap/casino" />
+                            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/$name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Casino" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.BottomNavigationView android:id="@id/bottom_navigation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:menu="@menu/bottom_navigation_menu" app:itemIconTint="#ffffffff" app:itemTextColor="#ffffffff" app:itemBackground="@color/colorPrimary" />
+</RelativeLayout>

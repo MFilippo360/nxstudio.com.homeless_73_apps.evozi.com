@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/$price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="84.0dip" android:text="@string/textview8" android:layout_alignBaseline="@id/$entity" android:layout_alignBottom="@id/$entity" android:layout_alignParentRight="true" android:layout_marginEnd="84.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/$entity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:text="@string/textview9" />
+    <ImageView android:id="@id/$checked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="34.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="34.0dip" android:layout_alignParentEnd="true" app:srcCompat="@mipmap/ic_check_box_outline_blank_black_24dp" />
+</RelativeLayout>

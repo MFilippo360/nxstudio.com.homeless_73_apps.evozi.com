@@ -1,0 +1,53 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: nxstudio.com.homeless_73_apps.evozi.com.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  build-data.properties: '8'
+  publicsuffixes.gz: '8'
+  com/tapjoy/res/countdown_image.png: '8'
+  com/tapjoy/res/tj_close_button.png: '8'
+  html/poll_resources: '8'
+  html/css/jquerymobilec.css: '8'
+  html/js/circlesmin.js: '8'
+  html/js/fastclick.js: '8'
+  html/js/jquery_nicescroll.js: '8'
+  html/js/jquerymin.js: '8'
+  html/js/jquerymobile.js: '8'
+  html/js/underscoremin.js: '8'
+  images/pollfish_close.png: '8'
+  images/pollfish_indicator_left.png: '8'
+  images/pollfish_indicator_right.png: '8'
+  images/pollfish_info.png: '8'
+  images/pollfish_logo.png: '8'
+  images/pollfish_radio_off.png: '8'
+  images/pollfish_radio_on.png: '8'
+  images/pollfish_square_off.png: '8'
+  images/pollfish_square_on.png: '8'
+  images/pollfish_star_off.png: '8'
+  images/pollfish_star_on.png: '8'
+  images/pollfish_tick.png: '8'
+  images/pollfish_tick2.png: '8'
+  images/pollfish_transparent.png: '8'
+  js/closebutton.html: '8'
+  js/mraid.js: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '73'
+  versionName: '8.2'

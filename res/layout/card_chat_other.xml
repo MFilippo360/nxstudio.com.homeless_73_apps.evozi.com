@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cardview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="60.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/balloon_incoming_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip">
+                <ImageView android:id="@id/$image" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@mipmap/toxic" />
+                <TextView android:textSize="15.0dip" android:typeface="normal" android:textStyle="bold" android:textColor="@color/Text_Medium" android:gravity="center_vertical" android:id="@id/$username" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="Rahul Ravindran" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip">
+                <Button android:id="@id/$PCWM" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Private Chat with me ?" style="@style/Widget.AppCompat.Button.Colored" />
+                <TextView android:textColor="@color/Text_Medium" android:autoLink="web" android:id="@id/$message" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="8.0dip" android:text="Hi Life Simulator Friend" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

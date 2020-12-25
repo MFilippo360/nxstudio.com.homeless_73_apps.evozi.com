@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/row1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_below="@id/cardView1" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <android.support.v7.widget.CardView android:id="@id/Jobs" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" android:onClick="goto_lodging" app:cardBackgroundColor="#ff74c239">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:onClick="goto_lodging">
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/textView5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="Price : 50" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" android:layout_alignParentStart="true" />
+                    <ImageView android:id="@id/$icon" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:srcCompat="@mipmap/tiger" />
+                    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/$name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Lodging" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" android:layout_alignParentStart="true" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/CriminalJobs" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:onClick="goto_transport" app:cardBackgroundColor="#ff558ad8">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:onClick="goto_transport">
+                    <ImageView android:id="@id/$icon" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_margin="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:srcCompat="@mipmap/cab" />
+                    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/$name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Transport" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" android:layout_alignParentStart="true" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

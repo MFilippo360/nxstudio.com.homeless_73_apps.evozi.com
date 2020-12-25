@@ -3,6 +3,7 @@
 .source "Cash.java"
 
 #FILO DI MERDA
+#SCRVI QUALCOSA
 
 # static fields
 .field public static criminal_skills_burglar_thief_skills:I
